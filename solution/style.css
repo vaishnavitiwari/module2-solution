@@ -1,8 +1,10 @@
 h1 {
+	position:relative;
 	text-align: center;
 	color: black;
 }
 section {
+	position:relative;
 	border: 1px solid black;
 	margin:5px;
 	background-color: #b5c4d2;
@@ -10,6 +12,7 @@ section {
 	
 }
 div {
+	position:relative;
 	border: none;
 	margin:2px;
 
@@ -19,9 +22,11 @@ div {
 	font-family: Helvetica;
 }
 body{
+	position:relative;
 	background-color: #d6d6d6
 }
 section>h3 {
+	position:relative;
     float: right;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
@@ -36,19 +41,23 @@ section>h3 {
 }
 
 section.s1>h3 {
+	position:relative;
     background-color: #76b8db;
 }
 
 section.s2>h3 {
+	position:relative;
     background-color: #4f7acd;
 }
 
 section.s3>h3 {
+	position:relative;
     color: #e2e2e2;
     background-color: #10328a;
 }
 
 section>p {
+	position:relative;
     padding: 40px 15px 15px 15px;
 }
 
@@ -120,7 +129,7 @@ section>p {
 	.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12
 	{
 		float:left;
-		border:1px solid black;
+		
 	}
 	.col-md-1{
 		width: 8.33%;
@@ -176,7 +185,7 @@ section>p {
 	.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12
 	{
 		float:left;
-		border:1px solid black;
+		
 	}
 	.col-sm-1{
 		width: 8.33%;
@@ -191,7 +200,7 @@ section>p {
 
 	}
 	.col-sm-4{
-		width: 33%;
+		width: 33.33%;
 
 	}
 	.col-sm-5{
